@@ -1,0 +1,178 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+.header-area h1
+{
+	margin:0px;
+}
+.header-area
+{
+	font-family:Algerian; 
+	background: #6666FF;
+	color: #ffffff;
+	text-align: center;
+	font-size: 22px;
+	padding: 10px;
+}
+.header-area a h1
+{
+	text-decoration:none;
+	color: #ffffff;
+}
+.header-area img
+{
+	height:30px;
+	margin-top: -22px;
+	position: relative;
+}
+.mid-area
+{
+	background:gray;
+	height: 39px;
+	padding: 4px;
+}
+.mid-area span a
+{
+	margin-left:90px;
+	text-decoration:none;
+	color: #ffffff;
+	font-size: 23px;
+	height: 80px;
+}
+.mid-area span a:hover
+{
+	font-weight: bold;
+	color: #66B2FF;
+	/* font-size: 28px; */
+}
+
+.mid-low img
+{
+	width: 100%;
+	height: 500px;
+}
+.footer-area
+{
+	width: 100%;
+	background: #66b2ff;
+	height: 91px;
+	margin-top: -37px;
+}
+.footer-area h5
+{
+	width: 50%;
+	text-align: center;
+	margin-left: 332px;
+	color: #ffffff;
+	font-size: 18px;
+}
+.reg-panel
+{
+	background: #66B2FF;
+	height: 644px;
+	width: 100%;
+}
+.reg-panel form
+{
+	margin-left:306px;
+	
+}
+
+.mid 
+{
+	
+	width: 258px;
+	margin-left: 498px;
+	margin-top: 20px;
+	padding: 50px;
+	background:#6666FF;
+	
+}
+.mid label
+{
+	cursor: pointer;
+	font-size: 20px;
+	
+}
+.mid input[type=text]
+{
+	width: 250px;
+	height: 30px;
+	
+}
+.mid input[type=password]
+{
+	width: 250px;
+	height: 30px;
+	
+}
+.mid a:hover
+{
+	font-weight: bold;
+	color: #66B2FF;
+	font-size: 22px;
+}
+.mid input[type=submit]
+{
+	width:100%;
+	margin-top: 8px;
+	height: 50px;
+	background:#66B2FF;
+	font-size: 15px;
+}
+.mid input[type=submit]:hover
+{
+	height: 60px;
+	font-size: 18px;
+}
+
+	
+	 /* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	margin-right: 51px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} 
